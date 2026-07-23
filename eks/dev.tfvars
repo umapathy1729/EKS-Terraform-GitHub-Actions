@@ -30,7 +30,7 @@ ondemand_instance_types     = ["t3.large"]
 spot_instance_types         = ["t3.large"]
 desired_capacity_spot       = "0"
 min_capacity_spot           = "0"
-max_capacity_spot           = "0"
+max_capacity_spot           = "1"
 addons = [
   {
     name    = "vpc-cni",
